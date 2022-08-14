@@ -21,18 +21,18 @@ namespace Maze
         string s2 = "Test";
 
 
-        
+
         public override void Awake()
         {
             base.Awake();
             #region Swap()
             base.Awake();
             Debug.Log($"x = {x} :: y = {y}");
-            Swap(ref x,ref y);
+            Swap(ref x, ref y);
             Debug.Log($"x = {x} :: y = {y}");
 
             Debug.Log($"s1 = {s1} :: s2 = {s2}");
-            Swap(ref s1,ref s2);
+            Swap(ref s1, ref s2);
             Debug.Log($"s1 = {s1} :: s2 = {s2}");
             #endregion
             myMessage = Temp;
